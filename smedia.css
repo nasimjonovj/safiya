@@ -1,0 +1,49 @@
+@media screen and (max-width:990px) {
+    .navbar{
+        padding: 0 40px;
+        height: 30px;
+    }
+    .nav__collection{
+        display: none;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .image{
+        padding: 0 ;
+        width:100%;
+        
+    }
+    .wrap__item{
+        display: none;
+    }
+    .wrap__menu{
+        margin: auto
+        ;
+    }
+    .header{
+     text-align: center;
+     margin-top: 30px;
+    }
+   
+    
+}@media screen and (max-width:500px) {
+    .navbar{
+        padding: 0 20px;
+    }
+    .wrap__item{
+        display: none;
+    }
+    .wrap__menu{
+        margin: auto
+        ;
+    }
+    .header{
+        text-align: center;
+        margin-top: 20px;
+       }
+    .card{
+        text-align: center;
+        width: 100%;
+    }   
+}

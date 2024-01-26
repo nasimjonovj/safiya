@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background: #ccc;
+    display: flex;
+    padding: 0 4%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.nav__collection{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav__menu span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #222;
+    margin-top: 3px;
+    border-radius: 10px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: url(https://safiabakery.uz/img/logo.svg?v=2)no-repeat center/cover;
+}
+
+.image{
+    width: 100%;
+    height: 700px;
+    background: url(./bg2.png)no-repeat center/cover;
+}
+.text{
+    text-align: center;
+    padding-top: 350px;
+    font-size: 52px;
+    font-family: cursive;
+    color: white;
+}
+.title{
+text-align: center;
+font-family: cursive;
+color:white;
+font-size: 20px;
+}
+.wrapper{
+    width: 100%;
+
+    height: 120px;
+    background: rgb(112, 81, 25);
+    display: flex;
+    padding: 0 4%;
+    justify-content: space-between;
+
+}
+.wrap__collection{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.wrap__menu{
+    width: 120px;
+    height: 100%;
+}
+ .wrap__item {
+  width: 120px;
+  height: 100%;
+  text-align: center;
+}
+.wrap__img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+    color: #fff;
+}
+.harf{
+    text-align: center;
+    padding-top: 10px;
+    color: #222;
+}
+.lolo{
+    background:url(https://safiabakery.uz/uploads/products/i_1669271334.png ) no-repeat center/cover;
+}
+.pepe{
+    background: url(https://safiabakery.uz/uploads/products/i_1669271334.png) no-repeat center/cover;
+}
+.pech{
+    background:url(https://safiabakery.uz/uploads/products/i_1669271334.png) no-repeat center/cover;
+}.pech{
+    background:url(https://safiabakery.uz/uploads/products/i_1669271334.png) no-repeat center/cover;
+}
+.header{
+    text-align: center;
+    margin-top: 50px;
+}
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border: 1px solid red;
+    padding:0 10%;
+    gap:10px;
+}
+.card__box{
+    width: 240px;
+    height: 200px;
+    padding-top: 20px;
+    border:1px solid gold;
+    
+}
+.card__img{
+    width: 100%;
+    height: 70%;
+    background: url(https://safiabakery.uz/uploads/products/thumbs/171_1705316603.png) no-repeat center/cover ;
+}.card__lolo{
+    width: 100%;
+    height: 70%;
+    background: url(https://safiabakery.uz/uploads/products/thumbs/171_1705316621.png) no-repeat center/cover ;
+}.card__pop{
+    width: 100%;
+    height: 70%;
+    background: url(https://safiabakery.uz/uploads/products/thumbs/171_1705321523.png) no-repeat center/cover ;
+}
+.card__laylo{
+    width: 100%;
+    height: 70%;
+    background: url(https://safiabakery.uz/uploads/products/thumbs/171_1705320903.png) no-repeat center/cover ;
+}

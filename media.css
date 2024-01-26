@@ -1,0 +1,51 @@
+@media screen and (min-width:1200px) {
+    .catigore::-webkit-scrollbar{
+        height: 6px;
+    }
+    .catigore::-webkit-scrollbar-thumb{
+        background: #ddd;
+        border-radius:10px;
+
+    }
+    ::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+        background: #ddd;
+        border-radius: 30px;
+    }
+    
+}
+@media  screen and (max-width:990px) {
+    .navbar{
+        padding: 0 20px;
+    }
+    .nav__collection{
+        display: none;
+    }
+    .nav__menu{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 20px ;
+        padding: 30px 20px;
+
+    }
+
+}
+@media screen and (max-width:500px) {
+    .banner__image img{
+        height: 250px;
+    }
+    .catigore{
+        width: calc(100% - 40px);
+    }
+    .wrapper{
+        padding: 30px 20px ;
+    }
+    .card{
+        width: 100%;
+    }
+}
